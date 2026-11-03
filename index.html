@@ -25,11 +25,13 @@ h1{font-size:1.02rem;margin:0;line-height:1.2}h1+small{color:var(--muted);font-s
 body[data-mode=net] #mnet,body[data-mode=read] #mread{background:var(--core);color:var(--bg);font-weight:600}
 .ib{background:var(--solid);border:1px solid var(--line);border-radius:999px;padding:7px 12px;font-size:.8rem}
 .ib:hover,.zoom button:hover,.sa button:hover{border-color:var(--core)}
-#sbtn,#tbtn{display:none}
+#tbtn{display:none}
+body[data-mode=net] #sbtn{display:inline-flex}
 svg{position:fixed;inset:0;width:100%;height:100%;z-index:1;cursor:grab;touch-action:none}
 svg.drag{cursor:grabbing}
 .edge{fill:none}
 .node{cursor:pointer}
+svg.drag .node{cursor:grabbing}
 .node text{fill:var(--text);font-size:12px;text-anchor:middle;pointer-events:none;paint-order:stroke;stroke:var(--bg);stroke-width:3.5px;stroke-linejoin:round}
 .node.main text{font-size:13.5px;font-weight:650}
 .node.deep text{font-size:11.5px}
@@ -73,6 +75,7 @@ svg.foc .node:not(.on),svg.foc .edge:not(.on),svg.foc .spark:not(.on){opacity:.1
 .go{margin-top:14px;width:100%;padding:11px;border:0;border-radius:12px;background:var(--core);color:var(--bg);font-weight:600;font-size:.9rem}
 #tip{position:fixed;left:calc(50% + var(--sw)/2);transform:translateX(-50%);bottom:calc(env(safe-area-inset-bottom,0px) + 16px);width:min(470px,calc(100% - 24px));z-index:7;background:var(--solid);border:1px solid var(--line);border-radius:16px;padding:14px 18px;font-size:.88rem;line-height:1.55;box-shadow:0 8px 30px #0004}
 #tip ol{margin:6px 0 10px;padding-left:20px}#tip button{border:0;background:var(--core);color:var(--bg);border-radius:999px;padding:7px 18px;font-weight:600}
+@media (min-width:901px){#side{transition:transform .25s}body.sidehide{--sw:0px}body.sidehide #side{transform:translateX(-105%)}}
 body[data-mode=read] #side,body[data-mode=read] svg,body[data-mode=read] #panel,body[data-mode=read] .zoom,body[data-mode=read] #tip,body[data-mode=read] #sbtn{display:none!important}
 body[data-mode=net] .readonly,body[data-mode=net] #reader,body[data-mode=net] #prog{display:none}
 .readonly{display:contents}
@@ -134,9 +137,9 @@ body[data-mode=net] .readonly,body[data-mode=net] #reader,body[data-mode=net] #p
  <div class="sa"><button id="all">Buka semua topik</button><button id="none">Tutup semua</button></div>
  <p class="lg"><svg viewBox="0 0 16 16" aria-hidden="true"><circle cx="8" cy="8" r="4" fill="currentColor"/><circle cx="8" cy="8" r="7" fill="none" stroke="currentColor" stroke-dasharray="2 2.5"/></svg> Lingkaran bergaris putus-putus berarti masih ada isi di dalamnya. Klik untuk membukanya. Lingkaran tanpa garis putus adalah penjelasan akhir.</p>
 </aside>
-<div class="zoom"><button id="zin" aria-label="Perbesar">＋</button><button id="zout" aria-label="Perkecil">－</button><button id="zfit" aria-label="Pas layar" title="Pas layar">⤢</button></div>
+<div class="zoom"><button id="zin" aria-label="Perbesar">＋</button><button id="zout" aria-label="Perkecil">－</button><button id="zfit" aria-label="Pas layar" title="Pas layar">⤢</button><button id="zreset" aria-label="Rapikan posisi node" title="Rapikan posisi node">↺</button></div>
 <aside id="panel" aria-live="polite"><button class="x" id="close" aria-label="Tutup">✕</button><div id="pp" class="crumbs"></div><h2 id="pt"></h2><div id="pb"></div><div id="pc"></div><div id="ps"><h3>Isi bagian ini</h3><div id="pl"></div></div><button class="go" id="gor">Baca selengkapnya di mode Baca →</button></aside>
-<div id="tip"><b>Cara memakai</b><ol><li>Klik <b>lingkaran</b> untuk membuka isinya.</li><li>Klik lingkaran paling ujung untuk membaca <b>penjelasannya</b>.</li><li>Cari istilah di kotak <b>Cari materi</b>, atau buka mode <b>Baca</b> untuk teks lengkap.</li></ol><button id="tipok">Mengerti</button></div>
+<div id="tip"><b>Cara memakai</b><ol><li>Klik <b>lingkaran</b> untuk membuka isinya.</li><li>Klik lingkaran paling ujung untuk membaca <b>penjelasannya</b>.</li><li>Cari istilah di kotak <b>Cari materi</b>, atau buka mode <b>Baca</b> untuk teks lengkap.</li><li><b>Tarik</b> sebuah lingkaran untuk memindahkannya bersama isinya. Tombol ↺ merapikan kembali.</li></ol><button id="tipok">Mengerti</button></div>
 <div id="reader"><div id="shell"><aside id="toc" aria-label="Daftar isi"><input id="tq" type="search" placeholder="Cari bagian…"></aside><article id="doc"><h1 id="s0">Penjelasan Lengkap Mata Kuliah PPG Prajabatan (FPPN, PPP, PMAD, PMAL, PSE) dan Glosarium</h1>
 <p>Disusun dari modul yang kamu kirim untuk lima mata kuliah, dilengkapi sumber tambahan (lihat Daftar Sumber di akhir).</p>
 <h2 id="s1">Catatan cakupan</h2>
@@ -2865,6 +2868,7 @@ function layout(){clr(ROOT);open.add(ROOT.key);wt(ROOT);const lv=[];
  const rad=[0];
  for(let d=1;d<lv.length;d++){let mw=1e9;lv[d].forEach(n=>{if(n.wd<mw)mw=n.wd});rad[d]=Math.max(Math.min(4500,(d===1?140:90)/mw),d===1?310:rad[d-1]+(d===2?200:175))}
  lv.forEach((arr,d)=>arr.forEach(n=>{let a=n.a,r=rad[d];if(d>0){const R=rng(+n.key.slice(1)*131+5);a+=(R()-.5)*n.wd*.2;r+=(R()-.5)*(d===1?28:34)}n.x=Math.cos(a)*r;n.y=Math.sin(a)*r}));
+ (function addOff(n,ox,oy){ox+=n._gx||0;oy+=n._gy||0;if(n.d>0&&n.x!=null){n.x+=ox;n.y+=oy}n.k.forEach(c=>addOff(c,ox,oy))})(ROOT,0,0);
  ext=(rad[rad.length-1]||300)+20;return lv}
 function node2(n){
  const d=n.d,isOpen=open.has(n.key),has=n.k.length>0,r=d===0?40:d===1?(isOpen?25:21):d===2?12:9.5,col=d===0?"var(--core)":n.c,G=grad(col),R=rng(+n.key.slice(1)*7919+13);
@@ -2881,6 +2885,15 @@ function node2(n){
  lines(n.n,d<=1?16:15).forEach((q,i)=>{const ts=el("tspan",{x:0,dy:i?14:0},t);ts.textContent=q});
  n._ph=R()*6.283;n._A=d<=1?2.4:3.4;n._sp=(R()-.5)*.12;
  g.addEventListener("click",()=>{if(!moved)clickNode(n)});
+ if(d>0){let ds=null;
+  g.addEventListener("pointerdown",e=>{if(e.button>0||pts.size)return;e.stopPropagation();cam.on=false;moved=false;ds={id:e.pointerId,x:e.clientX,y:e.clientY,lx:e.clientX,ly:e.clientY};try{g.setPointerCapture(e.pointerId)}catch(_){}});
+  g.addEventListener("pointermove",e=>{if(!ds||e.pointerId!==ds.id)return;
+   if(!moved){if(Math.abs(e.clientX-ds.x)+Math.abs(e.clientY-ds.y)<=5)return;moved=true;svg.classList.add("drag");hover(n,false)}
+   const dx=(e.clientX-ds.lx)/k,dy=(e.clientY-ds.ly)/k;ds.lx=e.clientX;ds.ly=e.clientY;
+   n._gx=(n._gx||0)+dx;n._gy=(n._gy||0)+dy;
+   (function mv(c){if(c.x!=null){c.x+=dx;c.y+=dy;c._px+=dx;c._py+=dy}c.k.forEach(mv)})(n);dirtyDraw=true});
+  const end=e=>{if(!ds||e.pointerId!==ds.id)return;ds=null;svg.classList.remove("drag");setTimeout(()=>moved=false,0)};
+  g.addEventListener("pointerup",end);g.addEventListener("pointercancel",end)}
  g.addEventListener("keydown",e=>{if(e.key==="Enter"||e.key===" "){e.preventDefault();clickNode(n)}});
  g.addEventListener("mouseenter",()=>hover(n,true));g.addEventListener("mouseleave",()=>hover(n,false))}
 function hover(n,on){const S=new Set();
@@ -2928,7 +2941,7 @@ function tick(now){
   if(Math.abs(cam.tx-nx)+Math.abs(cam.ty-ny)<.3&&Math.abs(cam.k-nk)<.002){tx=cam.tx;ty=cam.ty;k=cam.k;cam.on=false}else{tx=nx;ty=ny;k=nk}apply()}
  if(document.body.dataset.mode!=="read")frame(now);
  requestAnimationFrame(tick)}
-function offX(){return innerWidth>=901?136:0}
+function offX(){return innerWidth>=901&&!document.body.classList.contains("sidehide")?136:0}
 function fit(){const w=svg.clientWidth,h=svg.clientHeight;if(!w)return;const nk=Math.max(.1,Math.min(1.1,Math.min(w-offX()*2,h-80)/2/(ext+130)));
  if(!fitted){k=nk;tx=w/2+offX();ty=h/2+30;apply();fitted=true}else{cam.k=nk;cam.tx=w/2+offX();cam.ty=h/2+30;cam.on=true}}
 function focus(n){const w=svg.clientWidth,h=svg.clientHeight;if(!w)return;let m=40;
@@ -2936,6 +2949,7 @@ function focus(n){const w=svg.clientWidth,h=svg.clientHeight;if(!w)return;let m=
  cam.k=Math.max(.3,Math.min(1,Math.min(w-offX()*2,h-80)/2/(m+120)));cam.tx=w/2+offX()-n.x*cam.k;cam.ty=h/2+30-n.y*cam.k;cam.on=true}
 function zoom(f,cx,cy){cam.on=false;const nk=Math.max(.2,Math.min(2.5,k*f));cx=cx??svg.clientWidth/2+offX();cy=cy??svg.clientHeight/2;tx=cx-(cx-tx)*(nk/k);ty=cy-(cy-ty)*(nk/k);k=nk;apply()}
 $("zin").onclick=()=>zoom(1.25);$("zout").onclick=()=>zoom(.8);$("zfit").onclick=()=>fit();
+$("zreset").onclick=()=>{ALL.forEach(n=>{n._gx=n._gy=0});render()};
 let drag=false,sx=0,sy=0,pts=new Map(),pd=0;
 svg.addEventListener("wheel",e=>{e.preventDefault();zoom(e.deltaY<0?1.1:.9,e.clientX,e.clientY)},{passive:false});
 svg.addEventListener("pointerdown",e=>{cam.on=false;pts.set(e.pointerId,[e.clientX,e.clientY]);drag=true;moved=false;sx=e.clientX;sy=e.clientY;svg.classList.add("drag");
@@ -2993,7 +3007,7 @@ $("sq").addEventListener("input",()=>{const q=$("sq").value.trim().toLowerCase()
   const sm=document.createElement("small");const p=[];for(let c=n.par;c&&c!==ROOT;c=c.par)p.unshift(c.t?c.n:c.n);sm.textContent=p.slice(-2).join(" › ");bt.appendChild(sm);bt.onclick=()=>reveal(n);R.appendChild(bt)})});
 $("all").onclick=()=>{DATA.forEach(m=>open.add(m.key));render();fit()};
 $("none").onclick=()=>{open.clear();sel=null;render();fit()};
-$("sbtn").onclick=()=>$("side").classList.toggle("open");
+$("sbtn").onclick=()=>{if(innerWidth>=901){const o=offX();document.body.classList.toggle("sidehide");const h=document.body.classList.contains("sidehide");tx+=offX()-o;cam.on=false;apply();$("sbtn").setAttribute("aria-expanded",h?"false":"true");try{localStorage.setItem("sidehide",h?"1":"0")}catch(_){}}else $("side").classList.toggle("open")};
 /* mode baca */
 const rd=$("reader"),doc=$("doc"),toc=$("toc"),prog=$("prog"),tq=$("tq");
 const HS=[...doc.querySelectorAll("h1,h2,h3,h4,h5")],par=[],links=[];let cur=-1,lastTop=0,dirty=false,raf=0,fs=1;
@@ -3041,6 +3055,7 @@ document.addEventListener("mouseleave",()=>{mx=-999});
 rgbOf();buildSky();requestAnimationFrame(drawSky);addEventListener("resize",buildSky);
 matchMedia("(prefers-color-scheme: dark)").addEventListener("change",rgbOf);
 requestAnimationFrame(tick);
+try{if(innerWidth>=901&&localStorage.getItem("sidehide")==="1"){document.body.classList.add("sidehide");$("sbtn").setAttribute("aria-expanded","false")}}catch(_){}
 render();fit();route();
 </script>
 </body>
