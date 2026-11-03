@@ -1,0 +1,6 @@
+{
+  "name": "SynapseMind - Peta Pikiran Jaringan Syaraf",
+  "description": "Aplikasi mindmapping interaktif dengan morfologi dan visualisasi biologis jaringan syaraf, potensial aksi bioelektrik, neurotransmiter, dan asosiasi kognitif.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

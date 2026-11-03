@@ -1,0 +1,1060 @@
+# BAB I
+# PEMAHAMAN TENTANG PESERTA DIDIK DAN PEMBELAJARANNYA
+
+## 1.1 Hakikat Memahami Peserta Didik
+
+Pendidikan pada hakikatnya merupakan proses membantu manusia mengembangkan seluruh potensi yang dimilikinya. Proses pendidikan tidak hanya bertujuan memindahkan pengetahuan dari guru kepada peserta didik, tetapi juga mengembangkan kemampuan berpikir, keterampilan, sikap, karakter, kemandirian, dan tanggung jawab sosial.
+
+Dalam perspektif pedagogis, peserta didik bukanlah objek pasif yang hanya menerima informasi. Mereka merupakan individu yang memiliki latar belakang, pengalaman, karakteristik, kebutuhan, kemampuan, minat, serta potensi perkembangan yang berbeda-beda.
+
+Oleh karena itu, guru harus memahami siapa peserta didik yang dihadapinya sebelum menentukan tujuan pembelajaran, memilih model pembelajaran, menyusun materi, menentukan media, dan melakukan asesmen.
+
+Kesalahan memahami karakteristik peserta didik dapat menyebabkan pembelajaran tidak efektif. Sebagai contoh, guru mengajarkan algoritma pemrograman menggunakan penjelasan abstrak dan sintaks kode secara langsung kepada peserta didik yang belum memiliki pemahaman tentang urutan instruksi dan logika dasar. Akibatnya, peserta didik mungkin hanya menghafalkan sintaks tanpa memahami cara berpikir yang mendasarinya.
+
+Sebaliknya, apabila guru memahami kemampuan awal peserta didik, pembelajaran dapat dimulai dari aktivitas sederhana, seperti menyusun langkah-langkah membuat minuman, membuat algoritma kegiatan sehari-hari, menggunakan flowchart, kemudian beralih ke pseudocode dan bahasa pemrograman.
+
+Dengan demikian, memahami peserta didik bukan kegiatan administratif, melainkan dasar pengambilan keputusan profesional seorang guru.
+
+### 1.1.1 Dimensi yang Harus Dipahami Guru
+
+Pemahaman terhadap peserta didik sekurang-kurangnya mencakup beberapa dimensi berikut.
+
+**A. Perkembangan kognitif**
+
+Perkembangan kognitif berkaitan dengan perubahan kemampuan individu dalam memperoleh pengetahuan, memahami informasi, mengingat, berpikir, memecahkan masalah, mengambil keputusan, dan melakukan penalaran.
+
+Dalam pembelajaran Informatika, perkembangan kognitif menentukan bagaimana peserta didik memahami konsep abstrak seperti algoritma, struktur data, jaringan komputer, sistem bilangan, dan pemrograman.
+
+**B. Perkembangan sosial dan emosional**
+
+Dimensi ini berkaitan dengan kemampuan mengenali emosi, mengendalikan diri, membangun hubungan sosial, bekerja sama, memahami perasaan orang lain, dan mengambil keputusan secara bertanggung jawab.
+
+Dalam pembelajaran Informatika, aspek ini tampak ketika peserta didik mengerjakan proyek kelompok, melakukan diskusi pemecahan masalah, menerima kritik terhadap program yang dibuat, atau mengalami kegagalan ketika kode tidak berjalan.
+
+**C. Perkembangan moral**
+
+Perkembangan moral berkaitan dengan pembentukan pemahaman mengenai benar dan salah, tanggung jawab, kejujuran, keadilan, serta pertimbangan etis.
+
+Dalam Informatika, penerapannya sangat penting, terutama ketika mempelajari etika digital, privasi data, keamanan siber, hak cipta, plagiarisme, dan penggunaan kecerdasan buatan.
+
+**D. Perkembangan fisik dan motorik**
+
+Perkembangan fisik mencakup pertumbuhan tubuh, perkembangan otak, kemampuan motorik kasar, kemampuan motorik halus, serta perubahan biologis.
+
+Dalam pembelajaran Informatika, aspek ini dapat memengaruhi kemampuan peserta didik menggunakan perangkat komputer, mengetik, mengoperasikan mouse, dan melakukan aktivitas praktik yang memerlukan koordinasi motorik.
+
+**E. Perkembangan bahasa dan komunikasi**
+
+Kemampuan bahasa berpengaruh terhadap kemampuan memahami instruksi, membaca materi, menyampaikan pendapat, menjelaskan algoritma, dan mengomunikasikan hasil proyek.
+
+Guru perlu mempertimbangkan tingkat pemahaman bahasa peserta didik ketika menyampaikan konsep teknis yang memiliki banyak istilah asing.
+
+---
+
+## 1.2 TEORI PERKEMBANGAN KOGNITIF JEAN PIAGET
+
+### 1.2.1 Latar Belakang Teori
+
+Jean Piaget (1896–1980) merupakan psikolog dan epistemolog asal Swiss yang dikenal melalui teorinya tentang perkembangan kognitif anak.
+
+Piaget memandang bahwa anak bukan sekadar penerima informasi dari lingkungan. Anak secara aktif membangun pengetahuannya melalui interaksi dengan lingkungan fisik.
+
+Pemikiran ini menjadi salah satu landasan utama konstruktivisme.
+
+Konstruktivisme merupakan pandangan bahwa pengetahuan dibangun oleh individu melalui proses aktif dalam menghubungkan pengalaman baru dengan struktur pengetahuan yang telah dimiliki.
+
+Dalam konteks pendidikan, teori Piaget mengubah pandangan bahwa belajar cukup dilakukan dengan memberikan informasi, kemudian meminta peserta didik menghafalkannya.
+
+Menurut pendekatan konstruktivistik, peserta didik perlu mengalami, mengamati, mencoba, menemukan hubungan, dan membangun pemahaman.
+
+### 1.2.2 Konsep Utama Teori Piaget
+
+Terdapat empat konsep penting dalam teori perkembangan kognitif Piaget.
+
+**1. Skema (Schema)**
+
+Skema merupakan struktur atau kerangka mental yang digunakan individu untuk mengorganisasi dan memahami pengalaman.
+
+Skema membantu seseorang mengenali objek, memahami situasi, dan memberikan respons terhadap lingkungan.
+
+Contohnya, seorang peserta didik memiliki skema bahwa komputer merupakan perangkat yang digunakan untuk mengetik dan mengakses internet.
+
+Ketika peserta didik diperkenalkan pada fungsi komputer sebagai server, perangkat pengolah data, atau perangkat pengendali sistem otomatis, ia harus memperluas pemahamannya.
+
+**2. Asimilasi (Assimilation)**
+
+Asimilasi merupakan proses memasukkan informasi atau pengalaman baru ke dalam skema yang sudah dimiliki tanpa mengubah struktur dasar skema tersebut.
+
+Contoh:
+
+Peserta didik mengetahui bahwa perulangan dalam pemrograman digunakan untuk menjalankan instruksi berkali-kali.
+
+Ketika mempelajari perulangan `for` dan `while`, ia mencoba memahami keduanya menggunakan konsep umum perulangan yang telah dimilikinya.
+
+Informasi baru tersebut diasimilasikan ke dalam pemahaman sebelumnya.
+
+**3. Akomodasi (Accommodation)**
+
+Akomodasi merupakan proses mengubah atau membentuk skema baru ketika informasi yang diperoleh tidak dapat dijelaskan secara memadai menggunakan skema sebelumnya.
+
+Contoh:
+
+Peserta didik menganggap bahwa semua perulangan harus memiliki jumlah pengulangan yang sudah ditentukan.
+
+Ketika mempelajari `while`, ia menemukan bahwa pengulangan dapat berlangsung selama kondisi tertentu terpenuhi.
+
+Ia harus mengubah pemahamannya mengenai konsep perulangan.
+
+Proses perubahan pemahaman tersebut merupakan akomodasi.
+
+**4. Ekuilibrasi (Equilibration)**
+
+Ekuilibrasi merupakan proses penyeimbangan antara asimilasi dan akomodasi.
+
+Ketika individu menghadapi informasi yang bertentangan dengan pengetahuannya, muncul ketidakseimbangan kognitif atau disequilibrium.
+
+Individu kemudian berusaha membangun pemahaman baru sehingga tercapai keseimbangan kognitif.
+
+Contohnya:
+
+Peserta didik menganggap bahwa komputer selalu menghasilkan jawaban benar apabila program berhasil dijalankan.
+
+Guru memberikan contoh program yang berjalan tanpa kesalahan sintaks, tetapi menghasilkan perhitungan yang salah.
+
+Peserta didik mengalami konflik pemahaman dan mulai menyadari bahwa keberhasilan menjalankan program tidak selalu berarti algoritmanya benar.
+
+Guru dapat memanfaatkan konflik kognitif tersebut sebagai titik awal pembelajaran tentang debugging dan pengujian program.
+
+### 1.2.3 Empat Tahap Perkembangan Kognitif Piaget
+
+Piaget mengemukakan empat tahap perkembangan kognitif.
+
+**Tahap 1: Sensorimotor (0–2 tahun)**
+
+Pada tahap ini, anak memahami dunia melalui aktivitas sensorik dan gerakan fisik.
+
+Salah satu pencapaian penting adalah object permanence, yaitu pemahaman bahwa suatu benda tetap ada meskipun tidak terlihat.
+
+**Tahap 2: Praoperasional (2–7 tahun)**
+
+Anak mulai menggunakan simbol, bahasa, gambar, dan permainan imajinatif.
+
+Namun, pemikirannya masih memiliki keterbatasan, seperti egosentrisme dan centration.
+
+Egosentrisme adalah kecenderungan kesulitan memahami sudut pandang orang lain.
+
+Centration adalah kecenderungan hanya memperhatikan satu aspek dari suatu situasi.
+
+**Tahap 3: Operasional Konkret (7–11 tahun)**
+
+Anak mulai mampu melakukan penalaran logis terhadap objek dan situasi yang konkret.
+
+Mereka mulai memahami klasifikasi, pengurutan, hubungan sebab-akibat, dan konservasi.
+
+Pembelajaran sebaiknya menggunakan benda nyata, demonstrasi, eksperimen, dan aktivitas langsung.
+
+**Tahap 4: Operasional Formal (sekitar 11 tahun ke atas)**
+
+Individu mulai mampu melakukan penalaran abstrak, berpikir hipotetis, menyusun dugaan, dan menarik kesimpulan secara sistematis.
+
+Tahap ini relevan untuk pembelajaran Informatika tingkat SMP dan SMA, misalnya ketika peserta didik mempelajari algoritma, abstraksi, logika Boolean, dan pemrograman.
+
+Perlu dipahami bahwa rentang usia Piaget merupakan gambaran teoritis, bukan batas mutlak. Kemampuan aktual setiap peserta didik dapat berbeda tergantung pengalaman, konteks, dan jenis tugas yang dihadapi.
+
+### 1.2.4 Implementasi Teori Piaget dalam Pembelajaran Informatika
+
+Misalnya guru mengajarkan materi algoritma dan pemrograman.
+
+Pembelajaran dapat disusun sebagai berikut:
+
+1. Guru memberikan masalah sederhana berupa menyusun langkah membuat teh.
+2. Peserta didik mengidentifikasi urutan instruksi yang diperlukan.
+3. Peserta didik menyusun algoritma menggunakan bahasa sehari-hari.
+4. Guru memperkenalkan flowchart.
+5. Peserta didik mengubah algoritma menjadi pseudocode.
+6. Peserta didik menerjemahkannya ke bahasa pemrograman.
+7. Peserta didik menguji dan memperbaiki program.
+
+Urutan tersebut membantu peserta didik membangun pemahaman dari pengalaman konkret menuju representasi yang semakin abstrak.
+
+Prinsip penting yang dapat diambil adalah bahwa guru perlu memperhatikan pengetahuan awal peserta didik dan memberikan pengalaman yang memungkinkan terjadinya konstruksi pengetahuan.
+
+---
+
+## 1.3 TEORI KONSTRUKTIVISME SOSIAL LEV VYGOTSKY
+
+### 1.3.1 Latar Belakang
+
+Lev Semyonovich Vygotsky (1896–1934) merupakan psikolog Rusia yang mengembangkan teori perkembangan kognitif dengan menekankan peran interaksi sosial dan budaya.
+
+Berbeda dengan Piaget yang menekankan konstruksi pengetahuan melalui interaksi individu dengan lingkungan fisik, Vygotsky menempatkan interaksi sosial sebagai faktor penting dalam perkembangan fungsi mental yang lebih tinggi.
+
+Menurut Vygotsky, proses belajar tidak berlangsung sepenuhnya secara individual. Bahasa, budaya, interaksi dengan orang lain, dan lingkungan sosial memengaruhi cara seseorang membangun pengetahuan.
+
+### 1.3.2 Konsep Zone of Proximal Development (ZPD)
+
+Zone of Proximal Development merupakan jarak antara:
+
+- Tingkat perkembangan aktual: kemampuan yang dapat dilakukan peserta didik secara mandiri.
+- Tingkat perkembangan potensial: kemampuan yang dapat dicapai peserta didik dengan bantuan guru atau teman yang lebih kompeten.
+
+Contoh:
+
+Seorang peserta didik dapat membuat program sederhana secara mandiri, tetapi belum mampu membuat program yang menggunakan percabangan bersarang.
+
+Dengan bantuan guru berupa pertanyaan pemantik, contoh kode, dan petunjuk bertahap, peserta didik akhirnya mampu menyelesaikan program tersebut.
+
+Tugas yang sebelumnya tidak dapat diselesaikan secara mandiri kini dapat dikerjakan dengan bantuan.
+
+Itulah penerapan ZPD.
+
+### 1.3.3 Scaffolding
+
+Scaffolding merupakan bantuan sementara yang diberikan kepada peserta didik untuk membantu menyelesaikan tugas yang belum mampu dilakukan secara mandiri.
+
+Konsep scaffolding diperkenalkan dalam penelitian Wood, Bruner, dan Ross (1976), yang berkaitan dengan gagasan ZPD Vygotsky.
+
+Bantuan diberikan sesuai kebutuhan dan dikurangi secara bertahap ketika kompetensi peserta didik meningkat.
+
+Contoh pembelajaran pemrograman:
+
+Tahap pertama: guru memberikan contoh program lengkap dan menjelaskan setiap bagian kode.
+
+Tahap kedua: guru memberikan program yang sebagian kodenya dihilangkan.
+
+Tahap ketiga: peserta didik melengkapi kode dengan petunjuk sederhana.
+
+Tahap keempat: peserta didik membuat program sendiri.
+
+Tahap kelima: peserta didik mengerjakan masalah baru tanpa bantuan.
+
+Pengurangan bantuan secara bertahap disebut fading.
+
+### 1.3.4 Bahasa sebagai Alat Berpikir
+
+Vygotsky memandang bahasa sebagai alat psikologis yang berperan penting dalam perkembangan kognitif.
+
+Dalam pembelajaran Informatika, guru dapat meminta peserta didik menjelaskan alasan penggunaan suatu algoritma, menguraikan proses debugging, dan mendiskusikan strategi pemecahan masalah.
+
+Dengan menjelaskan pemikirannya, peserta didik tidak hanya menunjukkan hasil, tetapi juga mengembangkan proses penalaran.
+
+### 1.3.5 Perbandingan Piaget dan Vygotsky
+
+| Aspek | Piaget | Vygotsky |
+|---|---|---|
+| Fokus | Konstruksi kognitif individu | Interaksi sosial dan budaya |
+| Perkembangan | Melalui proses konstruksi pengetahuan | Melalui mediasi sosial |
+| Peran lingkungan | Pengalaman fisik | Interaksi sosial dan budaya |
+| Konsep penting | Asimilasi, akomodasi | ZPD, scaffolding |
+| Peran guru | Menyediakan pengalaman eksplorasi | Memberikan bantuan terarah |
+
+Keduanya bukan teori yang harus dipertentangkan. Guru dapat menggabungkan eksplorasi mandiri dengan pendampingan sosial sesuai kebutuhan pembelajaran.
+
+---
+
+## 1.4 TEORI PERKEMBANGAN SOSIAL-EMOSIONAL ERIK ERIKSON
+
+Erik Erikson (1902–1994) mengembangkan teori perkembangan psikososial yang menjelaskan perkembangan kepribadian manusia sepanjang kehidupan.
+
+Menurut Erikson, manusia menghadapi sejumlah krisis psikososial pada tahap-tahap perkembangan tertentu. Cara individu menghadapi krisis tersebut memengaruhi pembentukan identitas dan kepribadian.
+
+Delapan tahap perkembangan Erikson:
+
+1. Trust vs Mistrust (kepercayaan vs ketidakpercayaan).
+2. Autonomy vs Shame and Doubt (otonomi vs malu dan ragu).
+3. Initiative vs Guilt (inisiatif vs rasa bersalah).
+4. Industry vs Inferiority (ketekunan/kompetensi vs rendah diri).
+5. Identity vs Role Confusion (identitas vs kebingungan peran).
+6. Intimacy vs Isolation (keintiman vs isolasi).
+7. Generativity vs Stagnation (generativitas vs stagnasi).
+8. Integrity vs Despair (integritas vs keputusasaan).
+
+Dalam pendidikan, tahap keempat dan kelima sangat relevan.
+
+Pada tahap Industry vs Inferiority, anak usia sekolah membangun rasa kompeten melalui keberhasilan menyelesaikan tugas dan mendapatkan pengakuan atas usaha mereka.
+
+Guru perlu memberikan tantangan yang sesuai kemampuan, umpan balik yang membangun, dan kesempatan untuk mengalami keberhasilan.
+
+Pada tahap Identity vs Role Confusion, remaja mulai mengeksplorasi identitas, nilai, minat, dan tujuan hidup.
+
+Guru dapat memfasilitasi eksplorasi tersebut melalui proyek, diskusi, kegiatan organisasi, dan pilihan topik pembelajaran.
+
+Contoh dalam Informatika:
+
+Peserta didik diberikan kesempatan membuat proyek aplikasi sederhana berdasarkan permasalahan yang mereka temukan sendiri. Selain mengembangkan kemampuan teknis, kegiatan ini dapat mendukung rasa kompeten dan eksplorasi minat.
+
+---
+
+## 1.5 TEORI PERKEMBANGAN MORAL LAWRENCE KOHLBERG
+
+Lawrence Kohlberg mengembangkan teori perkembangan moral yang menjelaskan bagaimana individu membentuk pertimbangan mengenai benar dan salah.
+
+Ia mengidentifikasi tiga tingkat perkembangan moral dengan enam tahap.
+
+**Tingkat 1: Pra-konvensional**
+
+- Tahap 1: orientasi hukuman dan kepatuhan.
+- Tahap 2: orientasi kepentingan pribadi dan pertukaran.
+
+**Tingkat 2: Konvensional**
+
+- Tahap 3: orientasi menjadi pribadi baik dan mendapatkan penerimaan sosial.
+- Tahap 4: orientasi hukum, aturan, dan ketertiban sosial.
+
+**Tingkat 3: Pascakonvensional**
+
+- Tahap 5: orientasi kontrak sosial dan hak individu.
+- Tahap 6: orientasi prinsip etika universal.
+
+Contoh penerapan dalam Informatika:
+
+Seorang peserta didik menemukan bahwa temannya menyalin program dari internet dan mengakuinya sebagai hasil karya sendiri.
+
+Guru tidak cukup hanya memberikan hukuman. Guru perlu mengajak peserta didik memahami persoalan integritas akademik, hak cipta, kejujuran, dan tanggung jawab atas karya digital.
+
+Guru juga dapat menggunakan dilema moral sebagai bahan diskusi.
+
+Perlu dicatat bahwa tahap Kohlberg merupakan kerangka teoretis untuk memahami penalaran moral, bukan alat untuk memberi label tetap kepada peserta didik.
+
+---
+
+## 1.6 TEORI BELAJAR BEHAVIORISME
+
+Behaviorisme merupakan aliran psikologi yang memandang perilaku sebagai objek utama kajian dan menekankan hubungan antara stimulus, respons, serta konsekuensi.
+
+Tokoh-tokoh pentingnya antara lain:
+
+- Ivan Pavlov: classical conditioning.
+- Edward Thorndike: law of effect.
+- John B. Watson: behaviorisme.
+- B. F. Skinner: operant conditioning.
+
+### A. Classical Conditioning – Ivan Pavlov
+
+Classical conditioning menjelaskan proses pembentukan respons melalui asosiasi antara stimulus.
+
+Eksperimen Pavlov pada anjing menunjukkan bahwa stimulus yang awalnya netral dapat menghasilkan respons setelah dipasangkan berulang kali dengan stimulus yang secara alami menghasilkan respons tersebut.
+
+Dalam pendidikan, teori ini membantu menjelaskan terbentuknya asosiasi emosional terhadap pengalaman belajar.
+
+Misalnya, peserta didik yang berulang kali dipermalukan ketika menjawab pertanyaan dapat mengembangkan kecemasan ketika diminta berbicara di kelas.
+
+Karena itu, guru harus menciptakan lingkungan belajar yang aman secara psikologis.
+
+### B. Law of Effect – Edward Thorndike
+
+Thorndike menjelaskan bahwa respons yang diikuti konsekuensi memuaskan cenderung lebih mungkin diulangi.
+
+Konsep ini menjadi salah satu landasan perkembangan teori penguatan dalam pembelajaran.
+
+### C. Operant Conditioning – B. F. Skinner
+
+Skinner menjelaskan bahwa perilaku dapat dibentuk melalui konsekuensi yang mengikutinya.
+
+Konsep utamanya:
+
+- Positive reinforcement: memberikan sesuatu yang menyenangkan untuk meningkatkan kemungkinan perilaku muncul kembali.
+- Negative reinforcement: menghilangkan sesuatu yang tidak menyenangkan untuk meningkatkan perilaku.
+- Positive punishment: memberikan konsekuensi yang tidak menyenangkan untuk mengurangi perilaku.
+- Negative punishment: menghilangkan sesuatu yang menyenangkan untuk mengurangi perilaku.
+
+Penting dipahami bahwa reinforcement bertujuan meningkatkan perilaku, sedangkan punishment bertujuan menguranginya.
+
+Contoh penerapan:
+
+Peserta didik yang menyelesaikan latihan algoritma dengan benar mendapatkan umpan balik positif dan kesempatan mencoba tantangan lanjutan.
+
+Guru juga dapat menggunakan sistem poin dalam kuis digital, tetapi sebaiknya tidak menjadikan hadiah sebagai satu-satunya alasan peserta didik belajar.
+
+---
+
+## 1.7 TEORI BELAJAR KOGNITIVISME
+
+Kognitivisme memandang belajar sebagai proses mental yang melibatkan perhatian, persepsi, memori, pengolahan informasi, penalaran, dan pemecahan masalah.
+
+Berbeda dengan behaviorisme yang berfokus pada perubahan perilaku yang dapat diamati, kognitivisme berusaha menjelaskan proses internal yang terjadi ketika seseorang belajar.
+
+Tokoh penting dalam perkembangan kognitivisme meliputi:
+
+- Jean Piaget.
+- Jerome Bruner.
+- David Ausubel.
+- Robert Gagné.
+- Ulric Neisser.
+
+### A. Teori Pemrosesan Informasi
+
+Teori pemrosesan informasi menjelaskan bagaimana informasi diterima, diproses, disimpan, dan diambil kembali oleh manusia.
+
+Model yang umum digunakan membedakan:
+
+1. Sensory memory: penyimpanan informasi sensorik dalam waktu sangat singkat.
+2. Working memory atau short-term memory: ruang kerja mental untuk memproses informasi yang sedang digunakan.
+3. Long-term memory: penyimpanan pengetahuan dalam jangka panjang.
+
+Implikasi pembelajaran:
+
+Guru tidak sebaiknya memberikan terlalu banyak informasi baru sekaligus. Materi perlu diorganisasikan, diberikan contoh, dihubungkan dengan pengetahuan sebelumnya, dan dilatih melalui pengulangan bermakna.
+
+### B. Cognitive Load Theory – John Sweller
+
+Cognitive Load Theory menjelaskan bahwa kapasitas working memory terbatas sehingga desain pembelajaran perlu memperhatikan beban kognitif.
+
+Tiga jenis beban kognitif yang dikenal dalam kerangka teori ini:
+
+- Intrinsic cognitive load: beban yang berasal dari kompleksitas intrinsik materi.
+- Extraneous cognitive load: beban tambahan akibat penyajian atau desain pembelajaran yang tidak efektif.
+- Germane cognitive processing: pemrosesan mental yang mendukung pembentukan dan penguatan skema pengetahuan.
+
+Contoh dalam Informatika:
+
+Ketika mengajarkan struktur perulangan, guru sebaiknya tidak sekaligus memperkenalkan terlalu banyak konsep baru, seperti array, fungsi, rekursi, dan struktur data kompleks.
+
+Guru dapat memecah pembelajaran menjadi tahapan yang saling berhubungan.
+
+---
+
+## 1.8 TEORI BELAJAR KONSTRUKTIVISME
+
+Konstruktivisme menjelaskan bahwa peserta didik membangun pengetahuan melalui pengalaman dan interaksi dengan lingkungan.
+
+Dua pendekatan penting:
+
+**Konstruktivisme kognitif:** berhubungan dengan pemikiran Piaget tentang konstruksi pengetahuan oleh individu.
+
+**Konstruktivisme sosial:** berhubungan dengan pemikiran Vygotsky tentang peran interaksi sosial dan budaya.
+
+Dalam praktik pembelajaran, guru tidak hanya menjelaskan materi, tetapi merancang pengalaman agar peserta didik dapat menemukan hubungan, menguji gagasan, dan membangun pemahaman.
+
+Contoh:
+
+Guru memberikan masalah berupa bagaimana mengembangkan sistem antrean sederhana di kantin sekolah.
+
+Peserta didik diminta mengidentifikasi masalah, menyusun algoritma, menentukan data yang dibutuhkan, membuat rancangan program, dan menguji solusi.
+
+Guru berperan sebagai fasilitator yang memberikan bimbingan sesuai kebutuhan.
+
+---
+
+## 1.9 TEORI BELAJAR HUMANISME
+
+Humanisme memandang manusia sebagai individu yang memiliki potensi untuk berkembang, menentukan pilihan, membangun makna, dan mencapai aktualisasi diri.
+
+Tokoh pentingnya adalah Abraham Maslow dan Carl Rogers.
+
+### A. Hierarki Kebutuhan Abraham Maslow
+
+Maslow mengemukakan hierarki kebutuhan manusia yang secara umum terdiri dari:
+
+1. Kebutuhan fisiologis.
+2. Kebutuhan keamanan.
+3. Kebutuhan kasih sayang dan rasa memiliki.
+4. Kebutuhan penghargaan.
+5. Aktualisasi diri.
+
+Dalam pendidikan, teori ini mengingatkan guru bahwa kesiapan belajar tidak hanya ditentukan oleh kemampuan intelektual.
+
+Peserta didik yang lapar, merasa tidak aman, mengalami perundungan, atau merasa tidak dihargai dapat mengalami kesulitan berkonsentrasi.
+
+### B. Student-Centered Learning – Carl Rogers
+
+Carl Rogers menekankan pentingnya pembelajaran yang berpusat pada peserta didik.
+
+Guru perlu menciptakan lingkungan yang empatik, menerima peserta didik sebagai individu, dan memberikan kesempatan untuk belajar secara mandiri.
+
+Dalam Informatika, peserta didik dapat diberikan pilihan proyek sesuai minat, misalnya membuat aplikasi sederhana, desain web, permainan edukasi, atau visualisasi data.
+
+---
+
+## 1.10 TAKSONOMI BLOOM DAN PENERAPANNYA
+
+Taksonomi Bloom merupakan kerangka klasifikasi tujuan pendidikan yang dikembangkan oleh Benjamin S. Bloom dan koleganya pada tahun 1956.
+
+Taksonomi ini membantu guru merumuskan tujuan pembelajaran berdasarkan tingkat kompleksitas proses berpikir.
+
+Pada tahun 2001, Lorin W. Anderson dan David R. Krathwohl menerbitkan revisi taksonomi Bloom.
+
+### A. Taksonomi Bloom Revisi
+
+Enam tingkat proses kognitif:
+
+**C1 – Remember (Mengingat)**
+
+Kemampuan mengambil kembali informasi dari ingatan.
+
+Kata kerja operasional:
+- Menyebutkan.
+- Mengidentifikasi.
+- Mengingat.
+- Mendefinisikan.
+
+Contoh Informatika:
+
+Sebutkan tiga komponen utama sistem komputer.
+
+**C2 – Understand (Memahami)**
+
+Kemampuan menjelaskan makna informasi dan membangun pemahaman.
+
+Kata kerja:
+- Menjelaskan.
+- Mengklasifikasikan.
+- Membandingkan.
+- Menafsirkan.
+
+Contoh:
+
+Jelaskan perbedaan perangkat keras dan perangkat lunak beserta contohnya.
+
+**C3 – Apply (Menerapkan)**
+
+Kemampuan menggunakan konsep atau prosedur dalam situasi tertentu.
+
+Kata kerja:
+- Menggunakan.
+- Mengimplementasikan.
+- Menjalankan.
+- Menentukan.
+
+Contoh:
+
+Buatlah algoritma untuk menentukan bilangan ganjil atau genap.
+
+**C4 – Analyze (Menganalisis)**
+
+Kemampuan menguraikan informasi menjadi bagian-bagian dan menemukan hubungan di antaranya.
+
+Kata kerja:
+- Menganalisis.
+- Menguraikan.
+- Menghubungkan.
+- Mengorganisasikan.
+
+Contoh:
+
+Analisis penyebab suatu program menghasilkan keluaran yang tidak sesuai dengan hasil yang diharapkan.
+
+**C5 – Evaluate (Mengevaluasi)**
+
+Kemampuan membuat penilaian berdasarkan kriteria dan standar tertentu.
+
+Kata kerja:
+- Mengevaluasi.
+- Mengkritik.
+- Membuktikan.
+- Mempertimbangkan.
+
+Contoh:
+
+Bandingkan dua algoritma untuk menyelesaikan masalah yang sama dan tentukan algoritma yang lebih sesuai berdasarkan efisiensi dan keterbacaan.
+
+**C6 – Create (Mencipta)**
+
+Kemampuan menggabungkan berbagai unsur untuk menghasilkan produk, rancangan, atau solusi baru.
+
+Kata kerja:
+- Merancang.
+- Mengembangkan.
+- Membuat.
+- Memodifikasi.
+
+Contoh:
+
+Rancang dan buat aplikasi sederhana untuk membantu pengelolaan inventaris perpustakaan sekolah.
+
+### B. Dimensi Pengetahuan
+
+Taksonomi Bloom revisi juga memuat empat dimensi pengetahuan:
+
+1. Faktual: istilah, simbol, dan informasi dasar.
+2. Konseptual: klasifikasi, prinsip, teori, dan hubungan antarkonsep.
+3. Prosedural: metode, teknik, algoritma, dan langkah kerja.
+4. Metakognitif: pengetahuan tentang proses berpikir dan strategi belajar diri sendiri.
+
+Tujuan pembelajaran yang baik memperhatikan hubungan antara dimensi pengetahuan dan proses kognitif.
+
+### C. Perbedaan LOTS, MOTS, dan HOTS
+
+LOTS (Lower Order Thinking Skills) umumnya berkaitan dengan kemampuan mengingat dan memahami.
+
+MOTS (Middle Order Thinking Skills) sering digunakan dalam praktik pendidikan untuk menggambarkan kemampuan menerapkan pengetahuan.
+
+HOTS (Higher Order Thinking Skills) terutama berkaitan dengan menganalisis, mengevaluasi, dan mencipta.
+
+Pembagian LOTS, MOTS, dan HOTS merupakan pengelompokan praktis, bukan pengganti taksonomi Bloom.
+
+---
+
+## 1.11 PEMAHAMAN SOAL HOTS (HIGHER ORDER THINKING SKILLS)
+
+HOTS merupakan kemampuan berpikir tingkat tinggi yang melibatkan proses analisis, evaluasi, dan penciptaan.
+
+Soal HOTS tidak otomatis menjadi soal yang sulit hanya karena kalimatnya panjang atau menggunakan cerita.
+
+Soal HOTS harus mendorong peserta didik menggunakan pengetahuan untuk menganalisis informasi, memecahkan masalah, membuat keputusan, atau menghasilkan solusi.
+
+### Karakteristik soal HOTS
+
+1. Menggunakan konteks atau permasalahan yang bermakna.
+2. Mengharuskan peserta didik mengolah informasi.
+3. Memerlukan penalaran, bukan sekadar mengingat.
+4. Memungkinkan penggunaan pengetahuan dalam situasi baru.
+5. Mengukur kemampuan analisis, evaluasi, atau kreasi.
+
+### Contoh soal HOTS Informatika
+
+**Soal C4 – Analisis**
+
+Seorang siswa membuat program untuk menghitung rata-rata nilai lima peserta didik. Program berjalan tanpa menampilkan pesan kesalahan, tetapi hasil rata-rata selalu lebih besar daripada yang seharusnya.
+
+Analisis kemungkinan kesalahan logika pada program tersebut dan jelaskan bagaimana cara memperbaikinya.
+
+**Mengapa termasuk C4?**
+
+Peserta didik harus mengidentifikasi hubungan antara data, operasi perhitungan, dan keluaran program. Ia tidak cukup hanya mengingat definisi rata-rata.
+
+**Soal C5 – Evaluasi**
+
+Sebuah sekolah ingin membangun sistem pengumpulan tugas digital. Terdapat dua pilihan:
+
+- Sistem A: mudah digunakan, tetapi tidak memiliki mekanisme autentikasi pengguna.
+- Sistem B: memiliki autentikasi dan pengaturan hak akses, tetapi membutuhkan konfigurasi lebih lanjut.
+
+Evaluasilah kedua sistem berdasarkan keamanan, kemudahan penggunaan, dan kebutuhan sekolah. Berikan rekomendasi dengan alasan yang logis.
+
+**Mengapa termasuk C5?**
+
+Peserta didik harus menentukan kriteria, membandingkan alternatif, dan memberikan keputusan berdasarkan pertimbangan.
+
+**Soal C6 – Kreasi**
+
+Rancang sebuah aplikasi sederhana yang dapat membantu sekolah mencatat peminjaman perangkat komputer.
+
+Rancangan harus mencakup:
+- Identifikasi kebutuhan pengguna.
+- Data yang akan disimpan.
+- Alur kerja aplikasi.
+- Algoritma utama.
+- Rancangan antarmuka.
+- Cara pengujian.
+
+**Mengapa termasuk C6?**
+
+Peserta didik menghasilkan rancangan solusi baru dengan menggabungkan pengetahuan dan keterampilan yang telah dipelajari.
+
+---
+
+## 1.12 PENDEKATAN PEMBELAJARAN
+
+Pendekatan pembelajaran merupakan sudut pandang atau landasan umum yang digunakan guru dalam merancang dan melaksanakan pembelajaran.
+
+Pendekatan berbeda dari metode dan model pembelajaran.
+
+Beberapa pendekatan penting:
+
+**1. Student-Centered Learning**
+
+Pembelajaran berpusat pada peserta didik. Peserta didik berperan aktif dalam membangun pengetahuan, sedangkan guru bertindak sebagai fasilitator dan pembimbing.
+
+**2. Teacher-Centered Learning**
+
+Pembelajaran berpusat pada guru. Guru mengendalikan struktur penyampaian materi dan aktivitas pembelajaran.
+
+Pendekatan ini dapat digunakan secara tepat ketika materi membutuhkan penjelasan langsung atau demonstrasi yang terstruktur.
+
+**3. Scientific Approach**
+
+Pendekatan saintifik menggunakan proses pengamatan, pengajuan pertanyaan, pengumpulan informasi, penalaran, dan komunikasi.
+
+Dalam Informatika, pendekatan ini dapat diterapkan ketika peserta didik mengamati cara kerja jaringan komputer atau menguji suatu algoritma.
+
+**4. Contextual Teaching and Learning (CTL)**
+
+Pembelajaran menghubungkan konsep dengan konteks kehidupan nyata.
+
+Contoh: mengajarkan pengolahan data menggunakan data kehadiran atau hasil survei sekolah.
+
+**5. Computational Thinking Approach**
+
+Pendekatan yang menekankan kemampuan menyelesaikan masalah melalui dekomposisi, pengenalan pola, abstraksi, dan perancangan algoritma.
+
+---
+
+## 1.13 MODEL-MODEL PEMBELAJARAN
+
+Model pembelajaran merupakan kerangka konseptual yang menggambarkan prosedur sistematis untuk mengorganisasikan pengalaman belajar demi mencapai tujuan tertentu.
+
+Model pembelajaran memiliki karakteristik, landasan teori, sintaks, sistem sosial, prinsip reaksi, dan sistem pendukung.
+
+### A. Problem-Based Learning (PBL)
+
+PBL merupakan model pembelajaran yang menjadikan masalah sebagai titik awal pembelajaran.
+
+Peserta didik mengembangkan pengetahuan dan keterampilan melalui proses penyelidikan dan pemecahan masalah.
+
+Sintaks umum PBL:
+
+1. Orientasi peserta didik terhadap masalah.
+2. Mengorganisasikan peserta didik untuk belajar.
+3. Membimbing penyelidikan individual maupun kelompok.
+4. Mengembangkan dan menyajikan hasil.
+5. Menganalisis dan mengevaluasi proses pemecahan masalah.
+
+Contoh Informatika:
+
+Peserta didik diminta mencari solusi terhadap masalah antrean panjang di kantin sekolah. Mereka menganalisis kebutuhan, merancang sistem antrean, dan membuat prototipe aplikasi.
+
+### B. Project-Based Learning (PjBL)
+
+PjBL merupakan model pembelajaran yang mengorganisasikan pembelajaran melalui pengerjaan proyek dalam periode tertentu untuk menghasilkan produk atau karya.
+
+Sintaks yang sering digunakan:
+
+1. Menentukan pertanyaan mendasar.
+2. Mendesain perencanaan proyek.
+3. Menyusun jadwal.
+4. Memantau pelaksanaan proyek.
+5. Menguji hasil.
+6. Mengevaluasi pengalaman.
+
+Contoh:
+
+Peserta didik mengembangkan website profil sekolah, membuat aplikasi pengelolaan data, atau membangun media edukasi digital.
+
+Perbedaan penting: PBL berpusat pada proses penyelidikan dan pemecahan masalah, sedangkan PjBL berpusat pada proses pengerjaan proyek yang menghasilkan produk atau karya.
+
+### C. Discovery Learning
+
+Discovery Learning menekankan proses menemukan konsep atau prinsip melalui kegiatan eksplorasi dan pengolahan informasi.
+
+Tahapan yang umum:
+
+1. Stimulation.
+2. Problem Statement.
+3. Data Collection.
+4. Data Processing.
+5. Verification.
+6. Generalization.
+
+Contoh:
+
+Peserta didik mencoba beberapa struktur perulangan, mengamati pola keluaran, kemudian menyimpulkan karakteristik penggunaannya.
+
+### D. Inquiry-Based Learning
+
+Inquiry Learning menekankan penyelidikan berdasarkan pertanyaan atau permasalahan.
+
+Peserta didik mengembangkan kemampuan bertanya, merumuskan hipotesis, mengumpulkan bukti, menganalisis data, dan menarik kesimpulan.
+
+Contoh:
+
+Peserta didik menyelidiki mengapa kualitas koneksi internet berbeda antara beberapa lokasi di sekolah.
+
+### E. Cooperative Learning
+
+Cooperative Learning merupakan pembelajaran melalui kerja sama terstruktur dalam kelompok kecil untuk mencapai tujuan bersama.
+
+Beberapa tipe:
+
+- Student Teams Achievement Divisions (STAD).
+- Jigsaw.
+- Think Pair Share.
+- Numbered Heads Together.
+- Teams Games Tournament (TGT).
+
+Contoh:
+
+Peserta didik dibagi menjadi kelompok untuk menganalisis komponen sistem komputer. Setiap anggota mempelajari bagian tertentu dan menjelaskan hasilnya kepada anggota lain.
+
+### F. Direct Instruction
+
+Direct Instruction merupakan model pembelajaran yang menekankan pengajaran eksplisit dan terstruktur.
+
+Tahapan umumnya:
+
+1. Menyampaikan tujuan dan mempersiapkan peserta didik.
+2. Mendemonstrasikan pengetahuan atau keterampilan.
+3. Membimbing latihan.
+4. Memeriksa pemahaman dan memberikan umpan balik.
+5. Memberikan latihan mandiri.
+
+Model ini dapat digunakan untuk mengajarkan prosedur penggunaan perangkat lunak, sintaks dasar pemrograman, atau langkah konfigurasi jaringan.
+
+### G. Flipped Classroom
+
+Flipped Classroom membalik pola penyampaian materi dan aktivitas kelas.
+
+Peserta didik mempelajari materi dasar sebelum pertemuan, misalnya melalui video atau bahan bacaan. Waktu di kelas digunakan untuk diskusi, latihan, pemecahan masalah, dan pendampingan.
+
+### H. Game-Based Learning
+
+Game-Based Learning menggunakan permainan sebagai lingkungan atau media untuk mencapai tujuan pembelajaran.
+
+Contoh Informatika:
+
+Penggunaan Blooket atau permainan kuis untuk melatih pemahaman konsep algoritma, jaringan komputer, dan literasi digital.
+
+Perlu dibedakan dengan gamification. Game-Based Learning menggunakan permainan sebagai aktivitas belajar, sedangkan gamification menggunakan unsur permainan seperti poin, level, tantangan, dan penghargaan dalam aktivitas yang bukan permainan utuh.
+
+---
+
+## 1.14 PERBEDAAN PENDEKATAN, MODEL, STRATEGI, METODE, DAN TEKNIK
+
+Kelima istilah ini sering digunakan secara bergantian, padahal memiliki tingkat konseptual yang berbeda.
+
+| Istilah | Pengertian |
+|---|---|
+| Pendekatan | Sudut pandang atau landasan umum pembelajaran |
+| Strategi | Rencana umum untuk mencapai tujuan pembelajaran |
+| Model | Kerangka konseptual dengan prosedur dan sintaks tertentu |
+| Metode | Cara konkret melaksanakan kegiatan pembelajaran |
+| Teknik | Cara spesifik yang digunakan dalam penerapan metode |
+
+Contoh penerapan:
+
+Guru menggunakan pendekatan student-centered, memilih strategi pembelajaran kolaboratif, menggunakan model Project-Based Learning, menerapkan metode diskusi dan demonstrasi, serta menggunakan teknik presentasi kelompok dan peer review.
+
+Dengan demikian, kelima istilah tersebut saling berkaitan, tetapi tidak memiliki arti yang sama.
+
+---
+
+## 1.15 PEMBELAJARAN BERDIFERENSIASI
+
+Pembelajaran berdiferensiasi merupakan pendekatan yang mempertimbangkan keragaman kebutuhan, kesiapan, minat, dan karakteristik peserta didik.
+
+Konsep ini berkaitan erat dengan pemikiran Carol Ann Tomlinson.
+
+Tiga aspek yang sering digunakan:
+
+**1. Diferensiasi konten**
+
+Guru menyesuaikan materi atau sumber belajar.
+
+Contoh: menyediakan materi algoritma melalui teks, video, ilustrasi, dan demonstrasi.
+
+**2. Diferensiasi proses**
+
+Guru menyesuaikan aktivitas dan cara peserta didik mempelajari materi.
+
+Contoh: sebagian peserta didik menggunakan flowchart, sedangkan peserta didik yang lebih siap langsung membuat pseudocode.
+
+**3. Diferensiasi produk**
+
+Guru memberikan variasi cara peserta didik menunjukkan pemahaman.
+
+Contoh: peserta didik dapat menunjukkan hasil belajar melalui program sederhana, diagram alir, presentasi, atau laporan analisis.
+
+Diferensiasi tidak berarti membuat pembelajaran yang sepenuhnya berbeda untuk setiap peserta didik. Guru tetap mengacu pada tujuan pembelajaran yang sama dengan memberikan dukungan dan jalur belajar yang sesuai.
+
+---
+
+## 1.16 PEMBELAJARAN SOSIAL DAN EMOSIONAL (PSE)
+
+Pembelajaran Sosial dan Emosional merupakan proses pengembangan kemampuan untuk memahami dan mengelola emosi, membangun hubungan positif, menunjukkan empati, dan mengambil keputusan yang bertanggung jawab.
+
+Kerangka CASEL mengidentifikasi lima kompetensi utama:
+
+1. Self-awareness: kesadaran diri.
+2. Self-management: pengelolaan diri.
+3. Social awareness: kesadaran sosial.
+4. Relationship skills: keterampilan membangun hubungan.
+5. Responsible decision-making: pengambilan keputusan bertanggung jawab.
+
+Contoh penerapan dalam Informatika:
+
+Ketika peserta didik mengalami kegagalan dalam debugging, guru mengajak mereka mengelola frustrasi, mengidentifikasi kesalahan tanpa saling menyalahkan, bekerja sama, dan bertanggung jawab terhadap hasil proyek.
+
+PSE bukan hanya kegiatan tambahan di luar materi. Kompetensi sosial-emosional dapat diintegrasikan ke dalam proses pembelajaran sehari-hari.
+
+---
+
+## 1.17 ASESMEN DALAM PEMBELAJARAN
+
+Asesmen merupakan proses sistematis untuk mengumpulkan, mengolah, dan menafsirkan informasi mengenai proses serta hasil belajar peserta didik.
+
+Asesmen tidak hanya digunakan untuk menentukan nilai, tetapi juga untuk membantu guru mengambil keputusan pembelajaran.
+
+### A. Asesmen Diagnostik
+
+Dilaksanakan untuk mengidentifikasi kondisi awal, pengetahuan, kemampuan, dan kebutuhan belajar peserta didik.
+
+Contoh:
+
+Sebelum mengajarkan pemrograman, guru memberikan tes untuk mengetahui pemahaman peserta didik tentang logika, urutan instruksi, dan konsep variabel.
+
+### B. Asesmen Formatif
+
+Dilaksanakan selama proses pembelajaran untuk memberikan informasi tentang perkembangan belajar.
+
+Contoh:
+
+Guru memberikan kuis singkat, memeriksa kode program, mengamati diskusi, dan memberikan umpan balik.
+
+### C. Asesmen Sumatif
+
+Dilaksanakan untuk menilai pencapaian hasil belajar pada akhir suatu unit, lingkup materi, atau periode pembelajaran.
+
+Contoh:
+
+Peserta didik membuat proyek aplikasi sederhana dan dinilai menggunakan rubrik.
+
+### D. Assessment of Learning
+
+Asesmen untuk mengetahui hasil atau pencapaian belajar.
+
+### E. Assessment for Learning
+
+Asesmen untuk membantu meningkatkan proses pembelajaran.
+
+### F. Assessment as Learning
+
+Asesmen yang melibatkan peserta didik dalam memantau dan merefleksikan proses belajarnya sendiri.
+
+Contoh:
+
+Peserta didik menggunakan checklist untuk menilai apakah algoritma yang dibuat telah memenuhi kriteria tertentu.
+
+---
+
+## 1.18 PENDEKATAN TPACK DALAM PEMBELAJARAN INFORMATIKA
+
+TPACK (Technological Pedagogical Content Knowledge) dikembangkan oleh Punya Mishra dan Matthew J. Koehler.
+
+Kerangka ini menjelaskan bahwa pengajaran yang efektif dengan teknologi memerlukan integrasi tiga jenis pengetahuan utama:
+
+- Content Knowledge (CK): pengetahuan tentang materi pelajaran.
+- Pedagogical Knowledge (PK): pengetahuan tentang cara mengajar.
+- Technological Knowledge (TK): pengetahuan tentang teknologi.
+
+Ketiganya berinteraksi dan menghasilkan pengetahuan integratif.
+
+Komponen penting:
+
+1. PCK: integrasi pengetahuan materi dan pedagogi.
+2. TCK: hubungan teknologi dengan materi.
+3. TPK: hubungan teknologi dengan pedagogi.
+4. TPACK: integrasi seluruh komponen.
+
+Contoh:
+
+Guru Informatika mengajarkan algoritma.
+
+- CK: memahami algoritma dan struktur kontrol.
+- PK: memahami strategi mengajarkan konsep abstrak.
+- TK: menguasai aplikasi visualisasi algoritma.
+- TPACK: merancang pembelajaran yang menggunakan visualisasi algoritma, eksplorasi peserta didik, dan asesmen interaktif.
+
+Teknologi tidak otomatis menjadikan pembelajaran lebih baik. Teknologi harus dipilih berdasarkan tujuan dan kebutuhan pedagogis.
+
+---
+
+## 1.19 REFLEKSI KASUS PEMBELAJARAN
+
+**Kasus: Pembelajaran Pemrograman yang Tidak Efektif**
+
+Seorang guru Informatika mengajarkan bahasa pemrograman Python kepada kelas XI. Guru menjelaskan seluruh sintaks melalui presentasi selama 90 menit, kemudian memberikan tugas membuat program.
+
+Sebagian peserta didik mampu menyelesaikan tugas, tetapi sebagian lainnya tidak memahami hubungan antara variabel, percabangan, dan perulangan.
+
+Beberapa peserta didik hanya menyalin kode dari internet.
+
+### Analisis pedagogis
+
+**Perspektif Piaget:**
+
+Guru perlu mengetahui pengetahuan awal peserta didik dan menyusun pengalaman belajar dari konsep yang lebih sederhana menuju konsep yang lebih kompleks.
+
+**Perspektif Vygotsky:**
+
+Peserta didik yang mengalami kesulitan membutuhkan scaffolding, misalnya contoh kode, petunjuk bertahap, dan pendampingan.
+
+**Perspektif behaviorisme:**
+
+Latihan dan umpan balik dapat digunakan untuk memperkuat keterampilan dasar, tetapi tidak boleh menggantikan pemahaman konseptual.
+
+**Perspektif kognitivisme:**
+
+Materi yang terlalu banyak diberikan sekaligus dapat membebani working memory peserta didik.
+
+**Perspektif konstruktivisme:**
+
+Peserta didik perlu membangun pemahaman melalui aktivitas eksplorasi, pengujian, dan pemecahan masalah.
+
+**Perspektif pembelajaran sosial:**
+
+Diskusi dan kerja sama dapat membantu peserta didik saling menjelaskan dan mengembangkan pemahaman.
+
+### Rekomendasi perbaikan
+
+Guru dapat menerapkan kombinasi Direct Instruction untuk menjelaskan konsep dasar, latihan terbimbing menggunakan scaffolding, kemudian Problem-Based Learning untuk menyelesaikan permasalahan pemrograman.
+
+Asesmen formatif dilakukan sepanjang proses pembelajaran untuk mengidentifikasi kesulitan dan menentukan bantuan yang diperlukan.
+
+---
+
+## 1.20 KESIMPULAN BAB
+
+Memahami peserta didik merupakan fondasi utama kompetensi pedagogik guru.
+
+Teori Piaget menjelaskan konstruksi pengetahuan dan perkembangan kognitif. Vygotsky menekankan interaksi sosial, ZPD, dan scaffolding. Erikson menjelaskan perkembangan psikososial. Kohlberg menjelaskan perkembangan penalaran moral. Behaviorisme menjelaskan pembentukan perilaku melalui konsekuensi. Kognitivisme menjelaskan proses mental dalam belajar. Humanisme menekankan potensi dan kebutuhan manusia.
+
+Teori-teori tersebut memberikan sudut pandang yang berbeda dan dapat saling melengkapi dalam praktik pendidikan.
+
+Guru Informatika perlu memahami bahwa keberhasilan pembelajaran bukan sekadar kemampuan menyampaikan materi atau membuat peserta didik menyelesaikan tugas pemrograman. Keberhasilan pembelajaran juga ditentukan oleh kemampuan guru mengenali karakteristik peserta didik, merancang pengalaman belajar, memberikan dukungan yang tepat, dan mengukur perkembangan kompetensi secara adil.
+
+---
+
+## 1.21 LATIHAN PEMAHAMAN DAN EVALUASI
+
+### A. Soal Konseptual
+
+1. Jelaskan perbedaan mendasar teori konstruktivisme Piaget dan Vygotsky.
+2. Mengapa pemahaman tentang ZPD penting dalam menentukan tingkat kesulitan tugas?
+3. Jelaskan perbedaan asimilasi dan akomodasi menggunakan contoh pembelajaran Informatika.
+4. Bagaimana teori Erikson dapat membantu guru memahami perilaku peserta didik SMA?
+5. Mengapa pembelajaran yang hanya mengandalkan reinforcement belum tentu menghasilkan pemahaman konseptual?
+
+### B. Soal Analisis (C4)
+
+Seorang peserta didik mampu menghafalkan seluruh sintaks Python, tetapi tidak dapat membuat program sederhana tanpa melihat contoh.
+
+Analisis kemungkinan penyebab masalah tersebut menggunakan perspektif behaviorisme dan kognitivisme. Berikan alternatif perbaikannya.
+
+### C. Soal Evaluasi (C5)
+
+Seorang guru menggunakan metode ceramah untuk seluruh materi Informatika, termasuk pemrograman, jaringan komputer, dan keamanan digital.
+
+Evaluasilah kesesuaian pendekatan tersebut. Gunakan minimal tiga teori pembelajaran sebagai dasar argumentasi.
+
+### D. Soal Kreasi (C6)
+
+Rancang sebuah pembelajaran Informatika untuk materi algoritma kelas X yang mengintegrasikan:
+
+- Konstruktivisme.
+- Scaffolding.
+- Taksonomi Bloom.
+- Problem-Based Learning.
+- Asesmen formatif.
+- Kompetensi sosial-emosional.
+
+Susun tujuan pembelajaran, kegiatan pembelajaran, media, dan instrumen asesmennya.
+
+---
+
+## 1.22 REFERENSI UTAMA
+
+1. Piaget, J. (1952). *The Origins of Intelligence in Children*. International Universities Press.
+2. Vygotsky, L. S. (1978). *Mind in Society: The Development of Higher Psychological Processes*. Harvard University Press.
+3. Wood, D., Bruner, J. S., & Ross, G. (1976). The Role of Tutoring in Problem Solving. *Journal of Child Psychology and Psychiatry*, 17(2), 89–100.
+4. Erikson, E. H. (1968). *Identity: Youth and Crisis*. W. W. Norton.
+5. Kohlberg, L. (1984). *The Psychology of Moral Development*. Harper & Row.
+6. Skinner, B. F. (1953). *Science and Human Behavior*. Macmillan.
+7. Bruner, J. S. (1960). *The Process of Education*. Harvard University Press.
+8. Ausubel, D. P. (1968). *Educational Psychology: A Cognitive View*. Holt, Rinehart and Winston.
+9. Maslow, A. H. (1943). A Theory of Human Motivation. *Psychological Review*, 50(4), 370–396.
+10. Bloom, B. S. (Ed.). (1956). *Taxonomy of Educational Objectives: The Classification of Educational Goals*. Longmans.
+11. Anderson, L. W., & Krathwohl, D. R. (Eds.). (2001). *A Taxonomy for Learning, Teaching, and Assessing*. Longman.
+12. Sweller, J. (1988). Cognitive Load During Problem Solving: Effects on Learning. *Cognitive Science*, 12(2), 257–285.
+13. Tomlinson, C. A. (2014). *The Differentiated Classroom: Responding to the Needs of All Learners*. ASCD.
+14. Mishra, P., & Koehler, M. J. (2006). Technological Pedagogical Content Knowledge: A Framework for Teacher Knowledge. *Teachers College Record*, 108(6), 1017–1054.
+15. CASEL. (2020). *CASEL's SEL Framework*.
